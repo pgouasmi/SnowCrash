@@ -1,0 +1,13 @@
+level01@SnowCrash:~$ find / -user flag01 2>/dev/null
+level01@SnowCrash:~$ 
+
+etc/passwd
+
+flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
+
+Claude: 
+Le hash 42hDRfypTqqnw ressemble à un hash DES crypt (format Unix traditionnel) - 13 caractères, commençant par les 2 premiers caractères comme "salt".
+
+decrypt "flag01, flag, password"
+
+
