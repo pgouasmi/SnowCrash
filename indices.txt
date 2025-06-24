@@ -67,3 +67,155 @@ flag14:x:3014:3014::/home/flag/flag14:/bin/bash
 level00@SnowCrash:/var/www$ ls
 index.html  level04  level12
 
+
+
+level05@SnowCrash:/proc$ ls -la
+total 0
+dr-xr-xr-x 95 root       root                0 Jun 19 14:59 .
+drwxr-xr-x  1 root       root              240 Jun 19 14:59 ..
+dr-xr-xr-x  8 root       root                0 Jun 19 14:59 1
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 10
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 11
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1116
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1117
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1120
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1164
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1165
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1175
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1190
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 12
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1273
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1281
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1290
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1291
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1293
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1298
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 13
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1315
+dr-xr-xr-x  8 daemon     daemon              0 Jun 19 15:00 1316
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1325
+dr-xr-xr-x  8 whoopsie   whoopsie            0 Jun 19 15:00 1397
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1476
+dr-xr-xr-x  8 www-data   www-data            0 Jun 19 15:00 1493
+dr-xr-xr-x  8 www-data   www-data            0 Jun 19 15:00 1494
+dr-xr-xr-x  8 www-data   www-data            0 Jun 19 15:00 1495
+dr-xr-xr-x  8 www-data   www-data            0 Jun 19 15:00 1496
+dr-xr-xr-x  8 www-data   www-data            0 Jun 19 15:00 1497
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 15
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 16
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 168
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 17
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 18
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1826
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1848
+dr-xr-xr-x  8 flag11     flag11              0 Jun 19 15:13 1872
+dr-xr-xr-x  8 root       root                0 Jun 19 15:13 1883
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 1885
+dr-xr-xr-x  8 level04    level04             0 Jun 19 15:13 1890
+dr-xr-xr-x  8 level04    level04             0 Jun 19 15:00 1891
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 19
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 2
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 20
+dr-xr-xr-x  8 level05    level05             0 Jun 19 15:11 2121
+dr-xr-xr-x  8 level05    level05             0 Jun 19 15:13 2122
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 22
+dr-xr-xr-x  8 root       root                0 Jun 19 15:27 2281
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 23
+dr-xr-xr-x  8 level05    level05             0 Jun 19 15:30 2343
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 24
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 25
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 251
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 26
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 266
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 27
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 28
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 3
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 30
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 31
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 32
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 33
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 34
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 35
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 36
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 372
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 44
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 45
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 46
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 47
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 48
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 5
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 50
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 51
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 6
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 7
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 71
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 8
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 9
+dr-xr-xr-x  8 root       root                0 Jun 19 15:00 932
+dr-xr-xr-x  8 root       root                0 Jun 19 14:59 947
+dr-xr-xr-x  8 messagebus messagebus          0 Jun 19 15:00 953
+dr-xr-xr-x  8 syslog     syslog              0 Jun 19 15:00 955
+dr-xr-xr-x  4 root       root                0 Jun 19 15:00 acpi
+dr-xr-xr-x  5 root       root                0 Jun 19 15:30 asound
+-r--r--r--  1 root       root                0 Jun 19 15:30 buddyinfo
+dr-xr-xr-x  4 root       root                0 Jun 19 15:30 bus
+-r--r--r--  1 root       root                0 Jun 19 15:30 cgroups
+-r--r--r--  1 root       root                0 Jun 19 15:30 cmdline
+-r--r--r--  1 root       root                0 Jun 19 15:30 consoles
+-r--r--r--  1 root       root                0 Jun 19 15:30 cpuinfo
+-r--r--r--  1 root       root                0 Jun 19 15:30 crypto
+-r--r--r--  1 root       root                0 Jun 19 15:30 devices
+-r--r--r--  1 root       root                0 Jun 19 15:30 diskstats
+-r--r--r--  1 root       root                0 Jun 19 15:30 dma
+dr-xr-xr-x  3 root       root                0 Jun 19 15:30 dri
+dr-xr-xr-x  2 root       root                0 Jun 19 15:30 driver
+-r--r--r--  1 root       root                0 Jun 19 15:30 execdomains
+-r--r--r--  1 root       root                0 Jun 19 15:30 fb
+-r--r--r--  1 root       root                0 Jun 19 15:30 filesystems
+dr-xr-xr-x  5 root       root                0 Jun 19 15:30 fs
+-r--r--r--  1 root       root                0 Jun 19 15:30 interrupts
+-r--r--r--  1 root       root                0 Jun 19 15:30 iomem
+-r--r--r--  1 root       root                0 Jun 19 15:30 ioports
+dr-xr-xr-x 23 root       root                0 Jun 19 15:30 irq
+-r--r--r--  1 root       root                0 Jun 19 15:30 kallsyms
+-r--------  1 root       root       1069543424 Jun 19 15:30 kcore
+-r--r--r--  1 root       root                0 Jun 19 15:30 key-users
+-r--------  1 root       root                0 Jun 19 14:59 kmsg
+-r--------  1 root       root                0 Jun 19 15:30 kpagecount
+-r--------  1 root       root                0 Jun 19 15:30 kpageflags
+-rw-r--r--  1 root       root                0 Jun 19 15:30 latency_stats
+-r--r--r--  1 root       root                0 Jun 19 15:30 loadavg
+-r--r--r--  1 root       root                0 Jun 19 15:30 locks
+-r--r--r--  1 root       root                0 Jun 19 15:30 mdstat
+-r--r--r--  1 root       root                0 Jun 19 15:30 meminfo
+-r--r--r--  1 root       root                0 Jun 19 15:30 misc
+-r--r--r--  1 root       root                0 Jun 19 15:30 modules
+lrwxrwxrwx  1 root       root               11 Jun 19 15:30 mounts -> self/mounts
+-rw-r--r--  1 root       root                0 Jun 19 15:30 mtrr
+lrwxrwxrwx  1 root       root                8 Jun 19 15:30 net -> self/net
+-r--r--r--  1 root       root                0 Jun 19 15:30 pagetypeinfo
+-r--r--r--  1 root       root                0 Jun 19 15:30 partitions
+-r--r--r--  1 root       root                0 Jun 19 15:30 sched_debug
+-r--r--r--  1 root       root                0 Jun 19 15:30 schedstat
+dr-xr-xr-x  3 root       root                0 Jun 19 15:30 scsi
+lrwxrwxrwx  1 root       root               64 Jun 19 14:59 self -> 2343
+-r--------  1 root       root                0 Jun 19 15:30 slabinfo
+-r--r--r--  1 root       root                0 Jun 19 15:30 softirqs
+-r--r--r--  1 root       root                0 Jun 19 15:30 stat
+-r--r--r--  1 root       root                0 Jun 19 15:30 swaps
+dr-xr-xr-x  1 root       root                0 Jun 19 14:59 sys
+--w-------  1 root       root                0 Jun 19 15:30 sysrq-trigger
+dr-xr-xr-x  2 root       root                0 Jun 19 15:30 sysvipc
+-r--r--r--  1 root       root                0 Jun 19 15:30 timer_list
+-rw-r--r--  1 root       root                0 Jun 19 15:30 timer_stats
+dr-xr-xr-x  4 root       root                0 Jun 19 15:30 tty
+-r--r--r--  1 root       root                0 Jun 19 15:30 uptime
+-r--r--r--  1 root       root                0 Jun 19 15:30 version
+-r--r--r--  1 root       root                0 Jun 19 15:30 version_signature
+-r--------  1 root       root                0 Jun 19 15:30 vmallocinfo
+-r--r--r--  1 root       root                0 Jun 19 15:30 vmstat
+-r--r--r--  1 root       root                0 Jun 19 15:30 zoneinfo
+-->FLAG11 + whoopsie
+
+
+/usr/bin/fakeroot-sysv

