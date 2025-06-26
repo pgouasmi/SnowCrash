@@ -1,0 +1,30 @@
+objdump -d /tmp/getflag_patched | grep -A5 -B5 ptrace
+
+ 8048989:       e8 b2 fb ff ff          call   8048540 <ptrace@plt>
+
+ *0x8048989 -> ptrace
+
+ *0x08048afd -> getuid
+
+ retrouver getuid:
+
+ objdump -d /tmp/getflag_fixed | grep -A5 -B5 "call.*getuid"
+
+
+
+ Starting program: /tmp/getflag_fixed 
+
+Breakpoint 1, 0x08048afd in main ()
+(gdb) nexti
+0x08048b02 in main ()
+(gdb) print $eax
+$6 = 2014
+(gdb) set $eax = 3014
+(gdb) continue
+Continuing.
+Check flag.Here is your token : 7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ
+
+
+Congratulation. Type getflag to get the key and send it to me the owner of this livecd :)
+flag14@SnowCrash:~$ getflag
+Check flag.Here is your token : 7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ

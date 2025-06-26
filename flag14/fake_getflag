@@ -1,0 +1,32 @@
+#!/bin/bash
+cp /bin/getflag /tmp/getflag_patched
+xxd /tmp/getflag_patched > /tmp/dump.hex
+sed -i 's/00e8 b2fb ffff/0031 c090 9090/g' /tmp/dump.hex
+xxd -r /tmp/dump.hex > /tmp/getflag_fixed
+chmod +x /tmp/getflag_fixed
+
+
+
+________________________________________________
+
+
+#!/bin/bash
+cp /bin/getflag /tmp/getflag_patched
+ADDR=$(objdump -d /tmp/getflag_patched | grep "call.*ptrace" | cut -d: -f1 | tr -d ' ')
+BASE=$(objdump -h /tmp/getflag_patched | grep "\.text" | awk '{print $4}')
+OFFSET=$((0x$ADDR - 0x$BASE))
+printf '\x31\xc0\x90\x90\x90' | dd of=/tmp/getflag_patched bs=1 seek=$OFFSET conv=notrunc 2>/dev/null
+cp /tmp/getflag_patched /tmp/getflag_fixed
+chmod +x /tmp/getflag_fixed
+
+
+_________________________________________________
+
+
+
+#!/bin/bash
+cp /bin/getflag /tmp/getflag_patched
+xxd /tmp/getflag_patched > /tmp/dump.hex
+sed -i 's/00e8 b2fb ffff/0031 c090 9090/g' /tmp/dump.hex
+xxd -r /tmp/dump.hex > /tmp/getflag_fixed
+chmod +x /tmp/getflag_fixed

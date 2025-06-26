@@ -1,0 +1,15 @@
+dans fake.c:
+
+int getuid() {
+    return 4242;
+}
+
+gcc -shared -fPIC fake.c -o fake.so
+
+gdb ./level13 -> set environment 
+
+
+(gdb) set environment LD_PRELOAD=/tmp/fake.so
+(gdb) run
+Starting program: /home/user/level13/level13 
+your token is 2A31L79asukciNyi8uppkEuSx
