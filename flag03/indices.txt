@@ -1,0 +1,12 @@
+level03@SnowCrash:~$ chmod 777 /tmp/echo
+level03@SnowCrash:~$ ./level03 
+test
+Check flag.Here is your token : qi0maab88jeaj46qoumi7maus
+level03@SnowCrash:~$ getflag
+Check flag.Here is your token : 
+Nope there is no token here for you sorry. Try again :)
+level03@SnowCrash:~$ ls -la 
+.bash_logout  .bashrc       level03       .profile      
+level03@SnowCrash:~$ ls -la level03 
+-rwsr-sr-x 1 flag03 level03 8627 Mar  5  2016 level03
+level03@SnowCrash:~$ 
